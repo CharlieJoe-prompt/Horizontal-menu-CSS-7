@@ -34,6 +34,40 @@ code {
 	padding-left: 10px;
 }
 
+.nav-list {
+    padding:0px;
+    list-style-type: none;
+    border: 0;
+    display: flex;
+    justify-content: space-between;
+	align-items:center;
+
+}
+.nav-item {
+	background-color:rgb(69, 166, 205);
+    text-decoration: none;
+    padding: 9px;
+	display: block;
+	padding-left: 65px;
+	padding-right: 65px;
+
+}
+
+.current-cite {
+    background-color: rgb(255, 255, 255);
+    color:blue;
+	text-decoration: none;
+    padding: 9px;
+	display: block;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+
+.nav-item:hover{
+	background-color: rgb(190, 190, 190);
+
+}
+
 /* MAIN */
 
 .main-content {
